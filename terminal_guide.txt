@@ -1,0 +1,11 @@
+/* terminal instruction  */
+
+cd ..  上一頁
+cd /mnt/c/Users/jacke/Desktop/user/Demo 練習題位置
+cd /home/jacker78251 修改vimrc位置
+
+rm filename 刪除
+ls -o 列出現在位置的檔案
+ls -a 同上但可列出隱藏檔
+
+gcc -o name name.c 編譯C語言
