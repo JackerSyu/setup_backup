@@ -1,0 +1,24 @@
+  1 map <F5> :NERDTreeToggle<CR>
+  2 let g:neocomplcache_enable_at_startup = 1
+  3 let g:neocomplcache_enable_smart_case = 1
+  4 inoremap <expr><TAB> pumvisible()?"\<C-n>" : "\<TAB>"
+  5 syntax on
+  6 set number
+  7 set cursorline
+  8 colorscheme default
+  9 set bg=dark
+ 10 set tabstop=4
+ 11 set expandtab
+ 12 set shiftwidth=4
+ 13 set ai
+ 14 set hlsearch
+ 15 set smartindent
+ 16 set mouse=a
+ 17 set incsearch
+ 18 set encoding=utf-8
+ 19 map <F4> : set nu!<BAR>set nonu?<CR>
+ 20 " autocomplete dropdown list colorscheme
+ 21 hi Pmenu ctermfg=0 ctermbg=7
+ 22 hi PmenuSel ctermfg=7 ctermbg=4
+ 23 set vb
+ 24 set clipboard=unnamed

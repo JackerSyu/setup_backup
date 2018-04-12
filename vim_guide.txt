@@ -1,0 +1,44 @@
+/* vim 的常用指令 */
+
+:wq 存檔離開
+:version 查看vimrc位置及版本
+:echo $home 查vim位置
+
+:new filename 水平分割
+:vnew filename 垂直分割
+:tabe filename 新增分頁
+
+按住Ctrl + W，然后再加上h, j, k, l，分别表示向左、下、上、右移动窗口
+Ctrl + w + h：向左移动窗口
+Ctrl + w + j： 向下移动窗口
+Ctrl + w + j： 向上移动窗口
+Ctrl + w + l： 向右移动窗口
+
+Ctrl + w + w：这个命令会在所有窗口中循环移动
+Ctrl + w + t：移动到最左上角的窗口
+Ctrl + w + b：移动到最右下角的窗口
+Ctrl + w + p：移动到前一个访问的窗口
+
+gt 切換
+u 回復上個動作
+
+y 複製反白
+yy 複製行
+p 貼上
+dd 刪除
+o 下行插入
+v 反白
+
+gg 第一行
+G  最後一行
+
+A 跳至該行最後面並進入編輯模式
+行數 → G	移動到第 n 行
+0	移動到該行最前面
+$	移動到該行最後面
+字數 → [Space]	向右移動 n 個字元
+行數 → [Enter]	向下移動 n 行
+
+>> or <<   單行縮排
+V 反白 < or > 多行縮排
+
